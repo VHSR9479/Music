@@ -1,0 +1,87 @@
+create table salsa (
+cod_lista number(3) ,
+cod_cancion number (3)primary key,
+nombre varchar2 (100),
+dir varchar2(100));
+
+alter table salsa  add  constraint salsa_fk foreign key(cod_lista) references ListaReproduccion(cod_lista);
+CREATE SEQUENCE salsa_seq
+  MINVALUE 001
+  MAXVALUE 999
+  START WITH 001
+  INCREMENT BY 1
+  ;
+_____________________
+create table regueton (
+ cod_lista number(3) ,
+cod_cancion number (3)primary key,
+nombre varchar2 (100),
+dir varchar2(100));
+alter table regueton  add  constraint regueton_fk foreign key(cod_lista) references ListaReproduccion(cod_lista);
+CREATE SEQUENCE regueton_seq
+  MINVALUE 001
+  MAXVALUE 999
+  START WITH 001
+  INCREMENT BY 1
+  ;
+
+_____________________
+create table bachata(
+ cod_lista number(3) ,
+cod_cancion number (3)primary key,
+nombre varchar2 (100),
+dir varchar2(100));
+alter table bachata  add  constraint bachata_fk foreign key(cod_lista) references ListaReproduccion(cod_lista);
+CREATE SEQUENCE bachata_seq
+  MINVALUE 001
+  MAXVALUE 999
+  START WITH 001
+  INCREMENT BY 1
+  ;
+drop table bachata;
+_____________________
+create table merengue (
+ cod_lista number(3),
+cod_cancion number (3) primary key,
+nombre varchar2 (100),
+dir varchar2(100));
+
+alter table merengue  add  constraint merengue_fk foreign key(cod_lista) references ListaReproduccion(cod_lista);
+CREATE SEQUENCE merengue_seq
+  MINVALUE 001
+  MAXVALUE 999
+  START WITH 001
+  INCREMENT BY 1
+  ;
+
+____________________
+create table ListaReproduccion(
+cod_lista number(3) primary key,
+nombre_lista varchar2(100));
+insert into ListaReproduccion values(001,'Lista_guardada');
+
+______________________
+create table Lista_Guardada(
+ cod_lista number(3) ,
+cod_cancion number (3) primary key,
+nombre varchar2 (100),
+dir varchar2(100));
+alter table Lista_Guardada add  constraint Lista_Guardada_fk foreign key(cod_lista) references ListaReproduccion(cod_lista);
+CREATE SEQUENCE Lst_gd_seq
+  MINVALUE 001
+  MAXVALUE 999
+  START WITH 001
+  INCREMENT BY 1
+  ;
+
+__________________________________
+
+create table Contra(
+COD_CONTRA number(3) primary key not null,
+CONTRAINICIAL varchar2(200) primary key not null,
+CONTRAFINALvarchar2(200) primary key not null,
+FechaInicial date null,
+FechaFinal date null);
+
+insert into Contra  values(1,'MusicLog','Musiclog');
+update contra set FECHAINICIAL='12/15/2015',FECHAFINAL='12/28/2015' where cod_contra=1;
