@@ -1,9 +1,5 @@
-﻿/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package music;
+
+package Controlador;
 
 import java.awt.Color;
 import java.awt.ComponentOrientation;
@@ -295,38 +291,26 @@ marcador = new ArrayList<>();
         Vol.setForeground(new java.awt.Color(255, 0, 0));
         getContentPane().add(Vol);
         Vol.setBounds(340, 310, 50, 40);
-
-        img6.setIcon(new javax.swing.ImageIcon("C:\\Users\\victorhugo\\Documents\\victor\\pc sony\\c\\documentos\\NetBeansProjects\\Music\\img\\2img.jpg")); // NOI18N
         getContentPane().add(img6);
         img6.setBounds(0, 40, 410, 170);
-
-        img5.setIcon(new javax.swing.ImageIcon("C:\\Users\\victorhugo\\Documents\\victor\\pc sony\\c\\documentos\\NetBeansProjects\\Music\\img\\4img.jpg")); // NOI18N
         getContentPane().add(img5);
         img5.setBounds(0, 40, 410, 170);
 
-        img4.setIcon(new javax.swing.ImageIcon("C:\\Users\\victorhugo\\Documents\\victor\\pc sony\\c\\documentos\\NetBeansProjects\\Music\\img\\3img.jpg")); // NOI18N
         img4.setText("jLabel5");
         getContentPane().add(img4);
         img4.setBounds(0, 40, 410, 170);
 
-        img3.setIcon(new javax.swing.ImageIcon("C:\\Users\\victorhugo\\Documents\\victor\\pc sony\\c\\documentos\\NetBeansProjects\\Music\\img\\5img.jpg")); // NOI18N
         img3.setText("jLabel5");
         getContentPane().add(img3);
         img3.setBounds(0, 40, 410, 170);
-
-        img2.setIcon(new javax.swing.ImageIcon("C:\\Users\\victorhugo\\Documents\\victor\\pc sony\\c\\documentos\\NetBeansProjects\\Music\\img\\7img.png")); // NOI18N
         getContentPane().add(img2);
         img2.setBounds(0, 40, 410, 170);
 
         jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(0, 40, 400, 200);
-
-        img1.setIcon(new javax.swing.ImageIcon("C:\\Users\\victorhugo\\Documents\\victor\\pc sony\\c\\documentos\\NetBeansProjects\\Music\\img\\8img.jpg")); // NOI18N
         getContentPane().add(img1);
         img1.setBounds(0, 40, 410, 170);
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\victorhugo\\Documents\\victor\\pc sony\\c\\documentos\\NetBeansProjects\\Music\\img\\fondo madera.jpg")); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(0, 0, 800, 380);
 

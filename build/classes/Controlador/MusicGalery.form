@@ -288,11 +288,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="img6">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\victorhugo\Documents\victor\pc sony\c\documentos\NetBeansProjects\Music\img\2img.jpg"/>
-        </Property>
-      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="0" y="40" width="410" height="170"/>
@@ -300,11 +295,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="img5">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\victorhugo\Documents\victor\pc sony\c\documentos\NetBeansProjects\Music\img\4img.jpg"/>
-        </Property>
-      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="0" y="40" width="410" height="170"/>
@@ -313,9 +303,6 @@
     </Component>
     <Component class="javax.swing.JLabel" name="img4">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\victorhugo\Documents\victor\pc sony\c\documentos\NetBeansProjects\Music\img\3img.jpg"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="jLabel5"/>
       </Properties>
       <Constraints>
@@ -326,9 +313,6 @@
     </Component>
     <Component class="javax.swing.JLabel" name="img3">
       <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\victorhugo\Documents\victor\pc sony\c\documentos\NetBeansProjects\Music\img\5img.jpg"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="jLabel5"/>
       </Properties>
       <Constraints>
@@ -338,11 +322,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="img2">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\victorhugo\Documents\victor\pc sony\c\documentos\NetBeansProjects\Music\img\7img.png"/>
-        </Property>
-      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="0" y="40" width="410" height="170"/>
@@ -360,11 +339,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="img1">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\victorhugo\Documents\victor\pc sony\c\documentos\NetBeansProjects\Music\img\8img.jpg"/>
-        </Property>
-      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="0" y="40" width="410" height="170"/>
@@ -372,11 +346,6 @@
       </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\victorhugo\Documents\victor\pc sony\c\documentos\NetBeansProjects\Music\img\fondo madera.jpg"/>
-        </Property>
-      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="0" y="0" width="800" height="380"/>

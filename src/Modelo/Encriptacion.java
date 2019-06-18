@@ -8,8 +8,6 @@ package Modelo;
 import java.security.MessageDigest;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import oracle.jdbc.driver.Message;
-import org.apache.commons.codec.digest.DigestUtils;
 import bddMusic.conector;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
@@ -43,7 +41,7 @@ public class Encriptacion {
             hora = calendar.get(Calendar.HOUR);
 
             if (hora == 3 && minuto == 01) {
-                encriptado = DigestUtils.md2Hex(contraseña);
+//                encriptado = DigestUtils.md2Hex(contraseña);
                 contraseña = encriptado;
                 conec.StartQuery("update contra set contraFinal='" + contraseña + "'  where cod_contra=1");
                 System.out.println("mensaje: " + contraseña + "\nencriptado: " + encriptado);
